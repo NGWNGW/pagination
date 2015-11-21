@@ -21,6 +21,11 @@
         "psr-4": {
             "Illuminate\\Pagination\\": ""
         }
-    }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "5.1-dev"
+        }
+    },
     "minimum-stability": "dev"
 }
