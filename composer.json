@@ -1,16 +1,15 @@
 {
-    "name": "illuminate/pagination",
-    "description": "The Illuminate Pagination package.",
+    "name": "ngwngw/rex-eloquent-pagination",
+    "description": "The Illuminate Pagination package. (Custom Version for Redaxo 5)",
     "license": "MIT",
-    "homepage": "http://laravel.com",
-    "support": {
-        "issues": "https://github.com/laravel/framework/issues",
-        "source": "https://github.com/laravel/framework"
-    },
     "authors": [
         {
             "name": "Taylor Otwell",
             "email": "taylorotwell@gmail.com"
+        },
+        {
+            "name": "Nico Geisler",
+            "email": "mail@ng-websolutions.de"
         }
     ],
     "require": {
@@ -22,11 +21,6 @@
         "psr-4": {
             "Illuminate\\Pagination\\": ""
         }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "5.1-dev"
-        }
-    },
+    }
     "minimum-stability": "dev"
 }
