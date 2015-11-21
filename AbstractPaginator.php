@@ -313,9 +313,14 @@ abstract class AbstractPaginator
      */
     public static function resolveCurrentPage($pageName = 'page', $default = 1)
     {
+        /*
         if (isset(static::$currentPageResolver)) {
             return call_user_func(static::$currentPageResolver, $pageName);
         }
+        */
+        $page = rex_get($pageName, 'integer', -1);
+        if($page!=-1)
+            return $page;
 
         return $default;
     }
